@@ -1,7 +1,7 @@
     let number = prompt("Введите число:");
 
     let lastTwo = number % 100;
-    let lastDigit = lastTwoDigits % 10;
+    let lastDigit = lastTwo % 10;
   
     if (lastTwo >= 11 && lastTwo <= 19) {
         alert(`У вас ${number} мячей`);
